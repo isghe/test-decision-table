@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "test-decision-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "decision-table.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xo": "^0.42.0"
+  },
+  "xo":{
+    "rules":{
+      "unicorn/prefer-ternary": 0,
+      "unicorn/prefer-switch": 0
+    }
+  }
+}
